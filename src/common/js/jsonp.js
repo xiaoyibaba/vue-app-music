@@ -25,6 +25,5 @@ function param(data) {
         let value = data[k] !== undefined ? data[k] : ''
         url += `&${k}=${encodeURIComponent(value)}`
     }
-
     return url ? url.substring(1) : ''
 }
