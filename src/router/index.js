@@ -4,6 +4,7 @@ import Routrer from 'vue-router'
 Vue.use(Routrer)
 
 export default new Routrer({
+    mode: 'history',
     routes: [
         {
             path: '/',
